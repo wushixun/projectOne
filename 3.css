@@ -1,0 +1,172 @@
+.zuida{
+	width: 1920px;
+	height: 1300px;
+	margin: 0 auto;
+	
+}
+.lianjie{
+	text-decoration: none;
+}
+.shangbian {
+	
+	margin: 0 auto;
+	width: 1920px;
+	height: 230px;
+	background: white;
+	text-align: center;
+	background: #F5F5F5;
+
+}
+.form-group{
+	position: absolute;
+	top: 120px;
+	right: 1000px;
+	
+}
+.spusuokuang{
+	width: 600px;
+	height: 60px;
+	border-radius: ;
+}
+.anniu{
+	background: #E6C223;
+	width: 188px;
+	height: 60px;
+	border-radius: 20px,20px;
+}
+
+.first{
+	margin: 0 auto;
+}
+.one {
+	width: 469PX;
+	height: 120PX;
+	background: #E6C223;
+	
+}
+.two{
+	margin-top: 12PX;
+	width: 469PX;
+	height: 120PX;
+	background:#8C91EF;
+}
+.tupian1{
+	margin-left: 20px;
+}
+.wenzi1{
+	position: relative;
+	left: 140px;
+	top: -70px;
+}
+.tupian2{
+	margin-left: 10px;
+}
+.wenzi2{
+	position: relative;
+	left: 140px;
+	top: -70px;
+}
+.three{
+	width: 235px;
+	height: 120px;
+	background: #48C79C;
+	position: relative;
+	left: 480px;
+	top: -250px;
+}
+.tupian3{
+	margin-left: 20px;
+	margin-top: 30px;
+
+}
+.wenzi3{
+	position: relative;
+	left: 100px;
+	top: -40px;
+}
+.four{
+	width: 235px;
+	height: 120px;
+	background: #709BCE;
+	position: relative;
+	left: 480px;
+	top: -240px;
+}
+.tupian4{
+	margin-left: 20px;
+	margin-top: 30px;
+}
+.wenzi4{
+	position: relative;
+	left: 100px;
+	top: -40px;
+	
+}
+.five{
+	width: 235px;
+	height: 120px;
+	background: #9699df;
+	position: relative;
+	left: 725px;
+	top: -490px;
+}
+.tupian5{
+	margin-left: 20px;
+	margin-top: 30px;
+}
+.wenzi5{
+	position: relative;
+	left: 80px;
+	top: -40px;
+}
+.six{
+	width: 235px;
+	height: 120px;
+	background: #6dc0d9;
+	position: relative;
+	left: 725px;
+	top: -480px;
+}
+.tupian6{
+	margin-left: 20px;
+	margin-top: 30px;
+}
+.wenzi6{
+	position: relative;
+	left: 80px;
+	top: -40px;
+}
+.seven{
+	width: 235px;
+	height: 120px;
+	background: #6f9cce;
+	position: relative;
+	left: 970px;
+	top: -730px;
+}
+.tupian7{
+	margin-left: 20px;
+	margin-top: 30px;
+}
+.wenzi7{
+	position: relative;
+	left: 80px;
+	top: -40px;
+}
+.eight{
+	width: 235px;
+	height: 120px;
+	background: #47C79C;
+	position: relative;
+	left: 970px;
+	top: -720px;
+}
+.tupian8{
+	margin-left: 20px;
+	margin-top: 30px;
+}
+.wenzi8{
+	position: relative;
+	left: 80px;
+	top: -40px;
+}
