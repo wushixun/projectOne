@@ -1,0 +1,58 @@
+body{
+				margin: 0;
+				padding: 0;
+				width: 1660px;
+			}
+			
+			#header{
+				width: 1660px;
+				height: 100px;
+				/*background: palevioletred;*/
+			}
+			
+			#headerTxt{
+				width: 1230px;
+				height: 80px;
+				background: red;
+				margin:  0 auto;
+				position: relative;
+				top: 10px;
+			}
+			
+			#headerBanner {
+				width: 1660px;
+				height: 440px;
+				background: yellow;
+			}
+			#mainTupian{
+				width: 1440px;
+				height: 2560px;
+				background: powderblue;
+				margin: 0 auto;
+				margin-top: 50px;
+			}
+			#footer{
+				
+				width: 100%;
+				height: 400px;
+				background: black;
+				margin-top: 50px;
+				position: relative;
+			}
+			
+			#footerTxt{
+				width: 1000px;
+				height: 300px;
+				background: aquamarine;
+				margin: 0 auto;
+				
+			}
+#footerEwm{
+	width: 200px;
+	height: 300px;
+	background: red;
+	position: absolute;
+	right: 100px;
+	top: 50px;
+	
+}

@@ -1,0 +1,43 @@
+<style type="text/css">
+			body{
+				margin: 0;
+				padding: 0;
+				width: 1660px;
+			}
+			
+			#header{
+				width: 1660px;
+				height: 100px;
+				background: palevioletred;
+			}
+			
+			#headerBanner {
+				width: 1660px;
+				height: 440px;
+				background: yellow;
+			}
+			#headerCenter{
+				width: 312px;
+				height: 160px;
+				background: blue;
+				margin: 0 auto;
+				text-align: center;
+			}
+			.centerTxt{
+				
+				line-height: 160px;
+			}
+			#main{
+				width: 1300px;
+				height: 2123px;
+				background: red;
+				margin :0 auto  ;
+				
+			}
+			#footer{
+				width: 1660px;
+				height: 200px;
+				background: gray;
+				margin-top:40px ;
+			}
+		</style>
