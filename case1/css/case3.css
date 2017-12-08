@@ -1,38 +1,45 @@
-body{
+body {
 	margin: 0;
 	padding: 0;
 	background: #cccccc;
 }
 
-
-.header{
+.header {
 	width: 1920px;
 	height: 100px;
 	background: #CCCCCC;
 }
-#headNan{
+
+#headNan {
 	width: 1500px;
 	height: 100px;
 	background: yellow;
 	margin: 0 auto;
 }
-#main{
-	width: 1500px ;
+
+#main {
+	width: 1500px;
 	height: 3000px;
 	background: pink;
 	margin: 0 auto;
 	position: relative;
 	top: 50px;
 }
+
+
 /*<!--主体左边文字-->*/
-#mainLeft{
+
+#mainLeft {
 	width: 400px;
 	height: 3000px;
 	background: blueviolet;
 	float: left;
 }
+
+
 /*搜索框*/
-#mainLeft input{
+
+#mainLeft input {
 	width: 200px;
 	height: 30px;
 	border: grey;
@@ -41,101 +48,144 @@ body{
 	margin-left: 10px;
 	position: relative;
 	top: 30px;
-	
 }
+
+
 /*左边搜索框 下的文字*/
-#leftTXT{
+
+#leftTXT {
 	width: 380px;
 	height: 2920px;
 	background: green;
 	position: relative;
 	top: 50px;
-	
+	overflow: hidden;
+	overflow: auto;
 }
+
+
 /*开发文档*/
-.leftT{
+
+.leftT {
 	font-size: 18px;
 	font-weight: 700;
 	color: gray;
 }
+
+
 /*DIU*/
-#txtOneL{
+
+#txtOneL {
 	width: 150px;
 	height: 160px;
 }
-.ul{
+
+.ul {
 	width: 150px;
 	height: 160px;
-	text-decoration: none;	
+	text-decoration: none;
 }
-.ul li{
+
+.ul li {
 	list-style: none;
 	font-size: 13px;
 	color: gray;
 }
+
+
 /*模块开发*/
-#txtTwoL{
+
+#txtTwoL {
 	width: 150px;
 	height: 239px;
 }
-.wid{
+
+.wid {
 	width: 400px;
 	height: 239px;
 	list-style: none;
 }
+
+
 /*端API*/
-#txtThreeL{
+
+#txtThreeL {
 	width: 300px;
 	height: 157px;
 }
+
+
 /*云API*/
-#txtFourL{
+
+#txtFourL {
 	width: 300px;
 	height: 100px;
 }
+
+
 /*技术专题*/
-#txtFiveL{
+
+#txtFiveL {
 	width: 350px;
-	height: 330px;
-	overflow: hidden;
-	overflow: auto;
+	height: 480px;
+	/*overflow: hidden;
+	overflow: auto;*/
 }
+
+
 /*开发工具*/
-#txtsixL{
+
+#txtsixL {
 	width: 150px;
 	height: 500px;
 }
+
+
 /*下载*/
-#txtSeveL{
+
+#txtSeveL {
 	width: 150px;
 	height: 50px;
 }
-.wid1{
+
+.wid1 {
 	width: 150px;
 	height: 80px;
 }
+
+
 /*微信公众号适配*/
-#txtEightL{
+
+#txtEightL {
 	width: 150px;
 	height: 80px;
 }
+
+
 /*七天培训课教程*/
-#txtNineL{
+
+#txtNineL {
 	width: 150px;
 	height: 170px;
 }
+
+
 /*定制平台常见问题*/
-#txtTenL{
+
+#txtTenL {
 	width: 150px;
 	height: 120px;
 }
+
+
 /*开放平台接入指南*/
-#txtElevenL{
+
+#txtElevenL {
 	width: 170px;
 	height: 710px;
 }
 
-#mainRight{
+#mainRight {
 	width: 900px;
 	height: 3000px;
 	background: red;
@@ -143,7 +193,7 @@ body{
 	margin-left: 100px;
 }
 
-.dingZhi{
+.dingZhi {
 	font-size: 25px;
 	font-weight: 500;
 	color: yellow;
@@ -151,7 +201,7 @@ body{
 	margin-left: 50px;
 }
 
-#mainRight hr{
+#mainRight hr {
 	display: block;
 	width: 660px;
 	color: gray;
@@ -159,75 +209,157 @@ body{
 	right: 70px;
 }
 
-#rightTxt1{
+#rightTxt1 {
 	width: 800px;
-	height: 400px;	
+	height: 400px;
 }
 
-#rightTxt1  a{
+#rightTxt1 a {
 	font-size: 14px;
 	color: yellow;
 	text-decoration: none;
 }
+
 
 /*#rightTxt1 a:hover{
 	color: yellow;
 }*/
 
-#rightTxtTwo{
+#rightTxtTwo {
 	width: 800px;
 	height: 200px;
 	/*border: 1px solid black;*/
 }
-.a{
+
+.a {
 	font-size: 18px;
 	color: yellow;
 	text-decoration: none;
 }
-.font{
+
+.font {
 	font-size: 15px;
 }
-/*定制优势*//*DIU是谁*/
-.DIU{
+
+
+/*定制优势*/
+
+
+/*DIU是谁*/
+
+.DIU {
 	font-size: 14px;
 	color: gray;
 }
-#rightTxtThree{
+
+#rightTxtThree {
 	width: 800px;
 	height: 343px;
 	/*border: 1px solid black;*/
 }
 
-#rightTxtFour{
+#rightTxtFour {
 	width: 800px;
 	height: 80px;
 	/*border: 1px solid black;*/
 }
-#rightTxtFive{
+
+#rightTxtFive {
 	width: 800px;
 	height: 100px;
 	/*border: 1px solid black;*/
 }
-#rightTxtSix{
+
+#rightTxtSix {
 	width: 800px;
 	height: 100px;
 	/*border: 1px solid black;*/
 }
-#rightTxtSeven{
+
+#rightTxtSeven {
 	width: 800px;
 	height: 120px;
 	/*border: 1px solid black;*/
 }
-#rightTxtEight{
+
+#rightTxtEight {
 	width: 850px;
 	height: 120px;
 	/*border: 1px solid black;*/
 }
-#rightTxtNine{
+
+#rightTxtNine {
 	width: 850px;
 	height: 120px;
 	/*border: 1px solid black;*/
 }
-.big{
+
+.big {
 	font-size: 18px;
+}
+
+#rightTxtTen {
+	width: 850px;
+	height: 70px;
+	/*border: 1px solid black;*/
+}
+
+#rightTxtEleven {
+	width: 850px;
+	height: 70px;
+	/*border: 1px solid black;*/
+}
+
+#rightTxtTwelve {
+	width: 850px;
+	height: 80px;
+	/*border: 1px solid black;*/
+}
+
+#rightTxtThirteen {
+	width: 850px;
+	height: 130px;
+	/*border: 1px solid black;*/
+}
+
+#rightTxtFourteen {
+	width: 850px;
+	height: 130px;
+	/*border: 1px solid black;*/
+}
+
+#rightTxtFifteen {
+	width: 850px;
+	height: 130px;
+	/*border: 1px solid black;*/
+}
+
+#rightTxtSixteen {
+	width: 850px;
+	height: 120px;
+	/*border: 1px solid black;*/
+}
+
+#rightTxtseventeen {
+	width: 850px;
+	height: 390px;
+	/*border: 1px solid black;*/
+}
+
+#rightTxtEighteen {
+	width: 850px;
+	height: 80px;
+	/*border: 1px solid black;*/
+}
+
+#rightTxtNineteen {
+	width: 850px;
+	height: 120px;
+	/*border: 1px solid black;*/
+}
+
+#rightTxTwenty{
+	width: 850px;
+	height: 80px;
+	/*border: 1px solid black;*/
 }
