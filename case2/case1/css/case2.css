@@ -1,0 +1,103 @@
+body {
+	margin: 0;
+	padding: 0;
+	width: 1920px;
+}
+
+#header {
+	width: 1920px;
+	height: 100px;
+	/*background: palevioletred;*/
+}
+
+#headerTxt {
+	width: 1600px;
+	height: 80px;
+	background: red;
+	margin: 0 auto;
+	position: relative;
+	top: 10px;
+}
+#headerTxt img{
+	margin-top: 25px;
+	float: left;
+}
+#app{
+	font-size:12px ;
+	background-color: #e6c322;
+	color: white;
+	width: 120px;
+	line-height: 20px;
+	display: inline-block;
+	text-decoration: none;
+	position: relative;
+	top: 34px;
+	left: 15px;
+	text-align: center;
+	float: left;
+}
+#headNan{
+	width: 650px;
+	height: 30px;
+	/*border: 1px solid black;*/
+	float: left;
+	position: relative;
+	top: 25px;
+	left: 140px;
+	/*margin: 0 auto;*/
+}
+#headNan a{
+	font-size:20px;
+	text-decoration: none;
+	margin-right: 61px;
+	color: #333333;
+}
+
+#headNan a:hover{
+	color: #e4c41e;
+}
+/*头部登录注册*/
+#register{
+	width: 167px;
+	height: 35px;
+	float: left;
+	border: 1px solid black;
+}
+
+#headerBanner {
+	width: 1920px;
+	height: 440px;
+	background: yellow;
+}
+
+#mainTupian {
+	width: 1440px;
+	height: 2560px;
+	background: powderblue;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+#footer {
+	width: 100%;
+	height: 400px;
+	background: black;
+	margin-top: 50px;
+	position: relative;
+}
+
+#footerTxt {
+	width: 1000px;
+	height: 300px;
+	background: aquamarine;
+	margin: 0 auto;
+}
+
+#footerEwm {
+	width: 200px;
+	height: 300px;
+	background: red;
+	position: absolute;
+	right: 100px;
+	top: 50px;
+}
