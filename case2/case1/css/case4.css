@@ -102,6 +102,9 @@
 	text-align: center;
 	margin-top: 50px;
 }
+.liushui:hover{
+	height: 780px;
+}
 
 #mainCen1{
 	width: 100px;
@@ -138,14 +141,16 @@
 	border-left: 3px solid gray;
 	float: left;
 	margin-right: 60px;
+	position: relative;
 }
-.cen1 span{
+.liushui{
 	width: 10px;
 	height: 100px;
 	display: inline-block;
 	background: yellow;
-	position: relative;
-	right: 87px;
+	position: absolute;
+	right: 196px;
+	transition: all 1s;
 }
 .cen1 pre{
 	font-size: 18px;
