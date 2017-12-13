@@ -113,17 +113,18 @@ body {
 	font-size: 25px;
 	font-weight: 700;
 	line-height: 160px;
+	cursor: pointer;
 }
 
 #main {
 	width: 1920px;
-	height: 2235px;
+	height: 1535px;
 	/*background: blue;*/
 }
 
 #main1 {
 	width: 1300px;
-	height: 1226px;
+	height: 856px;
 	/*background: red;*/
 	margin: 0 auto;
 	display: none;
@@ -139,26 +140,41 @@ body {
 	height: 500px;
 }
 
-#main li {
+#main2 li {
 	float: left;
 	list-style: none;
 	margin-left: 20px;
 	margin-top: 20px;
+	width: 300px;
+	height: 200px;
+	overflow: hidden;
+	
+}
+#main1 li {
+	float: left;
+	list-style: none;
+	margin-left: 20px;
+	margin-top: 20px;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	
 }
 
 .box {
 	width: 200px;
 	height: 200px;
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 
-.box:hover {
+.img:hover {
 	opacity: 0.5;
 }
 
-.box:hover .txt {
+li:hover .txt {
 	position: relative;
-	transform: translate(0, -60px);
+	transform: translate(0, -150px);
+transition: all 1s;
 }
 
 .imgTxt {
@@ -175,19 +191,19 @@ body {
 	right: 40px;
 }
 
-#mainComputer {
+#main2 {
 	width: 1300px;
-	height: 2235px;
+	height: 1535px;
 	/*background: red;*/
 	margin: 0 auto;
 }
 
-#mainComputer img {
+#main2 img {
 	width: 325px;
 	height: 220px;
 }
 
-#mainComputer li {
+#main2 li {
 	margin-left: 60px;
 }
 
@@ -195,7 +211,7 @@ body {
 	width: 1920px;
 	height: 437px;
 	background: #2b2b2b;
-	margin-top: 40px;
+	margin-top: 0px;
 }
 
 #footerTxt {
